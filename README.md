@@ -13,7 +13,9 @@
 2，当前个人积分为0，点击提交，此时会校验个人积分以及库存数量。
 ![image](https://github.com/user-attachments/assets/2d39d537-b076-462e-a012-3bdf1a7d8633)
 
-3，使用burpsuite抓包拦截，修改响应，成功，此时积分为负数。
+3，使用burpsuite抓包拦截，修改响应（把响应为false的都改为true），成功，此时积分为负数。
+![image](https://github.com/user-attachments/assets/0a464c21-f7dc-4215-99d0-aa739ca29678)
+
 ![image](https://github.com/user-attachments/assets/669a4fb9-507e-43b1-a60d-b8d70d318ef8)
 ![image](https://github.com/user-attachments/assets/bcea71c0-4c67-4252-804a-183af8537459)
 
@@ -24,6 +26,7 @@
 ![image](https://github.com/user-attachments/assets/9fa4f2de-7a50-4d4f-b7d0-0af430c79b1b)
 
 修复建议：
+
 1、后端检查每一项值，包括支付状态。
 
 2、校验价格、数量参数，比如产品数量只能为正整数，并限制购买数量。
