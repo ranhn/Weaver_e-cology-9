@@ -21,6 +21,8 @@
 
 4，同理，还可以在数据包中修改自己的个人积分，成功。
 ![image](https://github.com/user-attachments/assets/aa833283-fec0-42b4-a895-bc70661ff99f)
+![image](https://github.com/user-attachments/assets/dfa75508-7ef0-48cf-95e2-a66ec8059f50)
+
 
 漏洞版本：e-cology-9 9.00.2104.07
 ![image](https://github.com/user-attachments/assets/9fa4f2de-7a50-4d4f-b7d0-0af430c79b1b)
